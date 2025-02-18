@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!--define idioma-->
+<head>
+    <meta charset="UTF-8"> <!--isso deixa ele aceitar acentos (codificacao de acentos)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SistemaBancario</title> <!--titulo da aba-->
+    <!-- Link para o arquivo CSS externo-->
+    <link rel="stylesheet" href="index.css">
+
+
+
+</head>
+
+<body>
+
+    <script src="index.js"></script> <!--inclusao do script js externo que vai controlar as operacoes bancarias-->
+
+    <!--Conteiner principal para o conteudo da interface-->
+    <div class="container">
+    
+    <!--Titulo principal da aplicacao-->
+    <h1>Nubank</h1>
+
+    
+
+    <!-- Campo de entrada para o valor -->
+        <label form="valor">Digite um valor: </label> <!-- Rotulo para o campo de valor -->
+
+        <input type="number" id="valor" placeholder="Ex: 100.00"><br> <!-- Campo para inserir o valor -->
+
+
+    <!-- Exibir o saldo atual -->
+    <div class="balance">
+    R$ <span id="saldo">0.00</span><!--Exibição dinamica do saldo-->
+    </div>
+</div>
+
+
+
+
+<div class="conta">Conta</div>
+<button class="botao1"onclick="Sacar()"></button>
+<button class="botao2"onclick="Depositar()"></button>
+<button class="botao3"onclick="Pix()"></button>
+
+<div class="Sacar">Sacar</div>
+<div class="Depositar">Depositar</div>
+<div class="Pix">Pix</div>
+
+
+
+
+    
+</body>
+</html>

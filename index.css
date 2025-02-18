@@ -1,0 +1,122 @@
+/* Estilos gerais para a pagina */
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif; /*Aqui define a fonte do site todo*/
+    padding: 0px; /* adiciona um espaço interno (padding) na pagina*/
+    margin: 0px; /* remove a margem padrao*/
+}
+
+/* Estilos para container principal */
+.container{
+    background-color: rgba(120, 6, 201, 0.838);
+    height: 200px;
+    
+    /*adicionar um espaço interno (padding) ao redor do conteudo*/
+    padding: 0px;
+    
+    /* define a largura maxima do container */
+    margin: auto;
+    /* box-shadow: 0 0 10px rgb(255, 255, 255);
+    Adiciona uma sombra bem de leve para destacar o container */
+    /* max-width: 400px;  define a largura maxima container*/
+}
+/*estilos de titulo*/
+h1{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-top: 0%;
+    text-align: center; /*centraliza*/
+}
+
+/*estilos para os inputs e botoes*/
+input{
+    width: 40%;
+    /*faz o campo de entrada ocupar toda a largura disponivel*/
+    padding: 4px;
+    /*espaço interno ao redor do texto no campo*/
+    margin: 10px 0;
+    /*adiciona um espaço de 5px acima e abaixo do campo*/
+    border-radius: 5px;
+    /*arredonda os cantos do campo*/
+    border: 1px solid #ccc;
+    /*borda cinza claro*/
+}
+
+.botao1{
+    background-color: rgba(54, 52, 55, 0.838);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px; /*arredonda os cantos*/
+    margin: 10px;
+    margin-top: 150px;
+    border: none;
+    margin-left: 40px;
+}
+.botao2{
+    background-color:rgba(54, 52, 55, 0.838);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 10px;
+    border: none;
+}
+.botao3{
+    background-color:rgba(54, 52, 55, 0.838);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 10px;
+    border: none;
+}
+
+.botao1:hover{
+    background-color: #6c6767;
+}
+.botao2:hover{
+    background-color: #6c6767;
+}
+.botao3:hover{
+    background-color: #6c6767;
+}
+
+
+
+
+.balance{
+    color: rgb(255, 255, 255);
+    margin-top: 170px;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+.conta{
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.Pix{
+    color: #ccc;
+    font-size: x-large;
+    margin-left: 320px;
+    margin-top: -25px;
+}
+.Sacar{
+    color: #ccc;
+    font-size: x-large;
+    margin-left: 57px;
+    margin-top: -10px;
+}
+.Depositar{
+    color: #ccc;
+    font-size: x-large;
+    margin-left: 165px;
+    margin-top: -25px;
+}
+
+.oi{
+    background-color: rgba(54, 52, 55, 0.838);
+    height: 100px;
+    width: 100px;   
+}
